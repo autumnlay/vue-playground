@@ -44,7 +44,7 @@
         <p>Try this one yourself in the ComputedPropertiesExercise.vue</p>
         <hr />
         <h1>Exercise</h1>
-        <exercise></exercise>
+        <exercise> </exercise>
       </div>
     </div>
   </div>

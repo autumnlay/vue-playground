@@ -131,7 +131,7 @@ p {
       </div>
       <hr />
       <h1>Exercise</h1>
-      <exercise></exercise>
+      <exercise> </exercise>
     </div>
   </div>
 </template>
@@ -144,13 +144,12 @@ export default {
   name: "bindings",
   setup() {
     const state = reactive({
-      note:
-        '<!--The data property "myName" is being watched and will cause a rerender on value change-->',
+      note: '<!--The data property "myName" is being watched and will cause a rerender on value change-->',
       note2:
         '<!--The bool adds or removes the class "active" to the element-->',
       val: "{{ }}",
       val2: "{{ state.myName }}",
-      val3: "{{ state.message }}",
+      val3: "{{ this.message }}",
       message: "Hello World!",
       myName: "Type your name here",
     });
